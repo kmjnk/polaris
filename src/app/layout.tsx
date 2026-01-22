@@ -4,6 +4,7 @@ import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
 import { Toaster } from "sonner";
+import "allotment/dist/style.css";
 
 const inter = Inter({
   variable: "--font-inter",
